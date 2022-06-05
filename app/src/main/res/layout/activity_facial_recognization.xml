@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".User.Activities.Facial_Recognization">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/lbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Place your face in middle of screen\nThen click on button and hold on for a second"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/cameraView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/voteNow"
+            android:layout_below="@id/lbl"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp" />
+
+        <com.vote.E_Voting_App.User.Adapters.GraphicOverlay
+            android:id="@+id/overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/voteNow"
+            android:layout_below="@id/lbl"
+            android:background="@color/black" />
+
+        <Button
+            android:id="@+id/voteNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_bg"
+            android:onClick="VoteNow"
+            android:text="VOTE NOW"
+            android:textColor="@color/white" />
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/camera"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_centerInParent="true"-->
+        <!--            android:drawableStart="@drawable/camera"-->
+        <!--            android:drawablePadding="10dp"-->
+        <!--            android:text="Touch to toggle camera"-->
+        <!--            android:textAppearance="@style/TextAppearance.AppCompat.Medium"-->
+        <!--            android:textColor="@color/white"-->
+        <!--            android:textStyle="bold" />-->
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_Projects/EVotingApp/app/src/main/res/drawable/admin_button_bg.xml" value="0.2155" />
+        <entry key="..\:/Android_Projects/EVotingApp/app/src/main/res/drawable/button_bg.xml" value="0.2155" />
+        <entry key="..\:/Android_Projects/EVotingApp/app/src/main/res/drawable/corners.xml" value="0.1965" />
+        <entry key="..\:/Android_Projects/EVotingApp/app/src/main/res/drawable/go_back.xml" value="0.2155" />
+        <entry key="..\:/Android_Projects/EVotingApp/app/src/main/res/drawable/go_to.xml" value="0.1965" />
+        <entry key="..\:/Android_Projects/EVotingApp/app/src/main/res/drawable/ic_reset.xml" value="0.2155" />
+        <entry key="..\:/Android_Projects/EVotingApp/app/src/main/res/layout/activity_account_creation.xml" value="0.25" />
+        <entry key="..\:/Android_Projects/EVotingApp/app/src/main/res/layout/activity_account_login.xml" value="0.25" />
+        <entry key="..\:/Android_Projects/EVotingApp/app/src/main/res/layout/activity_admin_login.xml" value="0.25" />
+        <entry key="..\:/Android_Projects/EVotingApp/app/src/main/res/layout/activity_facial_recognization.xml" value="0.2" />
+        <entry key="..\:/Android_Projects/EVotingApp/app/src/main/res/layout/activity_main.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android_Projects/EVotingApp/app/src/main/res/layout/activity_preview.xml" value="0.25" />
+        <entry key="..\:/Android_Projects/EVotingApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android_Projects/EVotingApp/app/src/main/res/layout/custom_progressdialog.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android_Projects/EVotingApp/app/src/main/res/layout/custom_verification_code_layout.xml" value="0.25" />
+        <entry key="..\:/Android_Projects/EVotingApp/app/src/main/res/layout/custom_voting_layout.xml" value="0.33" />
+        <entry key="..\:/Android_Projects/EVotingApp/app/src/main/res/layout/parties_layout.xml" value="0.5" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/drawable/button_bg.xml" value="0.1535" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/drawable/camera.xml" value="0.175" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/drawable/edittext_bg.xml" value="0.1535" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/drawable/ic_add_party.xml" value="0.147" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/drawable/ic_baseline_arrow_forward_24.xml" value="0.1965" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/drawable/ic_baseline_create_24.xml" value="0.1685" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/drawable/ic_image_foreground.xml" value="0.141" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/drawable/ic_reset.xml" value="0.1685" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/drawable/parties_bg.xml" value="0.1" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/drawable/view_bg.xml" value="0.147" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/drawable/voted.xml" value="0.191" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/layout/activity_account_creation.xml" value="0.25" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/layout/activity_account_login.xml" value="0.25" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/layout/activity_add_party.xml" value="0.25" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/layout/activity_admin_login.xml" value="0.25" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/layout/activity_facial_recognization.xml" value="0.25" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/layout/activity_fingerprint_authentication.xml" value="0.25" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/layout/activity_individual.xml" value="0.25" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/layout/activity_parties_view.xml" value="0.25" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/layout/activity_party_selection.xml" value="0.25" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/layout/activity_preview.xml" value="0.25" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/layout/activity_vote_submitted.xml" value="0.25" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/layout/custom_individual.xml" value="0.22" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/layout/custom_progressdialog.xml" value="0.5" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/layout/custom_voting_layout.xml" value="0.22" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/layout/parties_layout.xml" value="0.25" />
+        <entry key="..\:/Projects/Android_Projects/EVotingApp/app/src/main/res/mipmap-anydpi-v26/ic_image_round.xml" value="0.141" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

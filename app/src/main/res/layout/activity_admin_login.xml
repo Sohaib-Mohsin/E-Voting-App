@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".Admin.Activities.Admin_Login">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B3000000">
+
+        <ImageView
+            android:onClick="go_back"
+            android:id="@+id/go_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="24dp"
+            android:padding="5dp"
+            android:src="@drawable/go_back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/go_back"
+            android:layout_margin="20dp"
+            android:text="Login to monitor the Voting Status"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Admin@mail.com"
+                android:enabled="false"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:background="@drawable/edittext_bg"
+                android:padding="12dp"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textColor="@color/white"
+                android:inputType="numberPassword"
+                android:textColorHint="@color/white"
+                android:background="@drawable/edittext_bg"
+                android:padding="12dp"
+                android:layout_marginBottom="100dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_bg"
+            android:backgroundTint="@color/white"
+            android:padding="5dp"
+            android:text="Admin Login"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/teal_700"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
